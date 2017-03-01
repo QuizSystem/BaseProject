@@ -13,9 +13,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        let loginViewController = LoginViewController(nibName: "LoginViewController", bundle: nil)
+        let nav = BaseNavigationController(rootViewController: loginViewController)
+        nav.navigationBar.isTranslucent = false
+        self.window?.rootViewController = nav
+        self.window?.makeKeyAndVisible()
+        UIApplication.shared.setStatusBarStyle(.lightContent, animated: false)
         return true
     }
 

@@ -26,11 +26,20 @@
                         <action selector="loginButtonClicked:" destination="-1" eventType="touchUpInside" id="8Ys-WO-jPN"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uCu-fO-9fi">
+                    <rect key="frame" x="133.5" y="362" width="108" height="30"/>
+                    <state key="normal" title="Login Facebook"/>
+                    <connections>
+                        <action selector="loginFacebookButtonClicked:" destination="-1" eventType="touchUpInside" id="5fg-RX-uuO"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="veS-QV-bHD" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="9yO-nH-btH"/>
+                <constraint firstItem="uCu-fO-9fi" firstAttribute="top" secondItem="veS-QV-bHD" secondAttribute="bottom" constant="14" id="QKX-fz-3RL"/>
                 <constraint firstItem="veS-QV-bHD" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="hw9-dQ-UgJ"/>
+                <constraint firstItem="uCu-fO-9fi" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="o3y-TT-SIf"/>
             </constraints>
         </view>
     </objects>

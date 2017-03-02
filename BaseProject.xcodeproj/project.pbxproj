@@ -81,6 +81,10 @@
 		4B12F9D21E67BD7900CFCEB0 /* slide3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B12F9CC1E67BD7900CFCEB0 /* slide3@3x.png */; };
 		4B12F9D31E67BD7900CFCEB0 /* slide4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B12F9CD1E67BD7900CFCEB0 /* slide4@2x.png */; };
 		4B12F9D41E67BD7900CFCEB0 /* slide4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B12F9CE1E67BD7900CFCEB0 /* slide4@3x.png */; };
+		4B12F9DD1E67CF2900CFCEB0 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B12F9DB1E67CF2900CFCEB0 /* RegisterViewController.swift */; };
+		4B12F9DE1E67CF2900CFCEB0 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B12F9DC1E67CF2900CFCEB0 /* RegisterViewController.xib */; };
+		4B12F9E21E6812D300CFCEB0 /* PolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B12F9E01E6812D300CFCEB0 /* PolicyViewController.swift */; };
+		4B12F9E31E6812D300CFCEB0 /* PolicyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B12F9E11E6812D300CFCEB0 /* PolicyViewController.xib */; };
 		AF5A078CA4751E7879CC22F1 /* Pods_BaseProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E04E8BEA6157E762A083D90 /* Pods_BaseProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -154,6 +158,10 @@
 		4B12F9CC1E67BD7900CFCEB0 /* slide3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slide3@3x.png"; sourceTree = "<group>"; };
 		4B12F9CD1E67BD7900CFCEB0 /* slide4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slide4@2x.png"; sourceTree = "<group>"; };
 		4B12F9CE1E67BD7900CFCEB0 /* slide4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slide4@3x.png"; sourceTree = "<group>"; };
+		4B12F9DB1E67CF2900CFCEB0 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		4B12F9DC1E67CF2900CFCEB0 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		4B12F9E01E6812D300CFCEB0 /* PolicyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PolicyViewController.swift; sourceTree = "<group>"; };
+		4B12F9E11E6812D300CFCEB0 /* PolicyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PolicyViewController.xib; sourceTree = "<group>"; };
 		7E04E8BEA6157E762A083D90 /* Pods_BaseProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A818447351B716E7B9A140E9 /* Pods-BaseProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProjectTests/Pods-BaseProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		D7BE8506AF35D78FC5F77698 /* Pods-BaseProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProjectTests/Pods-BaseProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -238,6 +246,8 @@
 		30FB28D81E66838B008F10B6 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				4B12F9DF1E6812C800CFCEB0 /* PolicyViewController */,
+				4B12F9DA1E67CF1800CFCEB0 /* RegisterViewController */,
 				4B12F9AC1E67ABD000CFCEB0 /* TutorialViewController */,
 				30FB29621E669CD8008F10B6 /* LoginViewController */,
 				30FB293C1E669280008F10B6 /* TopViewController */,
@@ -343,6 +353,26 @@
 			);
 			name = TutorialViewController;
 			path = ViewController/TutorialViewController;
+			sourceTree = "<group>";
+		};
+		4B12F9DA1E67CF1800CFCEB0 /* RegisterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B12F9DB1E67CF2900CFCEB0 /* RegisterViewController.swift */,
+				4B12F9DC1E67CF2900CFCEB0 /* RegisterViewController.xib */,
+			);
+			name = RegisterViewController;
+			path = ViewController/RegisterViewController;
+			sourceTree = "<group>";
+		};
+		4B12F9DF1E6812C800CFCEB0 /* PolicyViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B12F9E01E6812D300CFCEB0 /* PolicyViewController.swift */,
+				4B12F9E11E6812D300CFCEB0 /* PolicyViewController.xib */,
+			);
+			name = PolicyViewController;
+			path = ViewController/PolicyViewController;
 			sourceTree = "<group>";
 		};
 		9A36821E34E8F25EA1EBEC85 /* Frameworks */ = {
@@ -477,12 +507,14 @@
 				30FB29361E6691DA008F10B6 /* tab_top.png in Resources */,
 				30FB29341E6691DA008F10B6 /* tab_settings@3x.png in Resources */,
 				4B12F9C81E67BD5200CFCEB0 /* slide1@3x.png in Resources */,
+				4B12F9DE1E67CF2900CFCEB0 /* RegisterViewController.xib in Resources */,
 				4B12F9D31E67BD7900CFCEB0 /* slide4@2x.png in Resources */,
 				4B12F9C71E67BD5200CFCEB0 /* slide1@2x.png in Resources */,
 				30FB292A1E6691DA008F10B6 /* tab_schedule.png in Resources */,
 				30FB29301E6691DA008F10B6 /* tab_settings.png in Resources */,
 				30FB29481E6692F1008F10B6 /* ResumeViewController.xib in Resources */,
 				30FB29281E6691DA008F10B6 /* tab_resume@3x.png in Resources */,
+				4B12F9E31E6812D300CFCEB0 /* PolicyViewController.xib in Resources */,
 				4B12F9D11E67BD7900CFCEB0 /* slide3@2x.png in Resources */,
 				30FB28DC1E6683B3008F10B6 /* MainViewController.xib in Resources */,
 				30FB292E1E6691DA008F10B6 /* tab_schedule@3x.png in Resources */,
@@ -587,10 +619,12 @@
 				30FB29601E6693FB008F10B6 /* BaseTabBarViewController.swift in Sources */,
 				30FB29541E66937C008F10B6 /* ScheduleViewController.swift in Sources */,
 				30FB29461E6692F1008F10B6 /* ResumeViewController.swift in Sources */,
+				4B12F9E21E6812D300CFCEB0 /* PolicyViewController.swift in Sources */,
 				30FB28DB1E6683B3008F10B6 /* MainViewController.swift in Sources */,
 				30FB293F1E6692B1008F10B6 /* TopViewController.swift in Sources */,
 				30FB294D1E66932E008F10B6 /* MessageViewController.swift in Sources */,
 				30FB295B1E6693B0008F10B6 /* AccountViewController.swift in Sources */,
+				4B12F9DD1E67CF2900CFCEB0 /* RegisterViewController.swift in Sources */,
 				4B12F9AF1E67ABE800CFCEB0 /* TutorialViewController.swift in Sources */,
 				30FB29651E669D06008F10B6 /* LoginViewController.swift in Sources */,
 			);

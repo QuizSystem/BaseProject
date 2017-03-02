@@ -41,9 +41,8 @@ class TutorialViewController: BaseViewController {
     // MARK: - IBActions
 
     @IBAction func startButtonTapped(_ sender: Any) {
-        let loginViewController = LoginViewController()
-        let navigationController = BaseNavigationController(rootViewController: loginViewController)
-        self.present(navigationController, animated: true, completion: nil)
+        let registerViewController = RegisterViewController()
+        self.present(registerViewController, animated: true, completion: nil)
     }
     
 }
@@ -57,13 +56,7 @@ extension TutorialViewController: UIScrollViewDelegate {
         self.titleLabel?.text = titles[currentIndex]
         self.descriptionLabel?.text = descriptions[currentIndex]
         self.mainPageControl.currentPage = currentIndex
-        if currentIndex == backgrounds.count - 1 {
-            UIView.animate(withDuration: 1.0, animations: { 
-                self.startButton.alpha = 1.0
-            })
-        } else {
-            self.startButton.alpha = 0.0
-        }
+        self.startButton.alpha = currentIndex == backgrounds.count - 1 ? 1.0 : 0.0
     }
     
 }

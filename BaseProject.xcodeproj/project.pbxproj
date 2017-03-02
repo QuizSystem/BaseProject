@@ -71,6 +71,16 @@
 		30FB29661E669D06008F10B6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FB29631E669D06008F10B6 /* LoginViewController.swift */; };
 		30FB29671E669D06008F10B6 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30FB29641E669D06008F10B6 /* LoginViewController.xib */; };
 		30FB29681E669D06008F10B6 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30FB29641E669D06008F10B6 /* LoginViewController.xib */; };
+		4B12F9AF1E67ABE800CFCEB0 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B12F9AD1E67ABE800CFCEB0 /* TutorialViewController.swift */; };
+		4B12F9B01E67ABE800CFCEB0 /* TutorialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B12F9AE1E67ABE800CFCEB0 /* TutorialViewController.xib */; };
+		4B12F9C71E67BD5200CFCEB0 /* slide1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B12F9C51E67BD5200CFCEB0 /* slide1@2x.png */; };
+		4B12F9C81E67BD5200CFCEB0 /* slide1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B12F9C61E67BD5200CFCEB0 /* slide1@3x.png */; };
+		4B12F9CF1E67BD7900CFCEB0 /* slide2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B12F9C91E67BD7900CFCEB0 /* slide2@2x.png */; };
+		4B12F9D01E67BD7900CFCEB0 /* slide2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B12F9CA1E67BD7900CFCEB0 /* slide2@3x.png */; };
+		4B12F9D11E67BD7900CFCEB0 /* slide3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B12F9CB1E67BD7900CFCEB0 /* slide3@2x.png */; };
+		4B12F9D21E67BD7900CFCEB0 /* slide3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B12F9CC1E67BD7900CFCEB0 /* slide3@3x.png */; };
+		4B12F9D31E67BD7900CFCEB0 /* slide4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B12F9CD1E67BD7900CFCEB0 /* slide4@2x.png */; };
+		4B12F9D41E67BD7900CFCEB0 /* slide4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B12F9CE1E67BD7900CFCEB0 /* slide4@3x.png */; };
 		AF5A078CA4751E7879CC22F1 /* Pods_BaseProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E04E8BEA6157E762A083D90 /* Pods_BaseProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -134,6 +144,16 @@
 		30FB29751E66BE58008F10B6 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../../Library/Developer/Xcode/DerivedData/BaseProject-dgnlmoplibbbaubeznvkwnyotgwf/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
 		30FB29771E66BE5C008F10B6 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../../../Library/Developer/Xcode/DerivedData/BaseProject-dgnlmoplibbbaubeznvkwnyotgwf/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework"; sourceTree = "<group>"; };
 		30FB29791E66BE61008F10B6 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = "Pods/../build/Debug-iphoneos/SDWebImage/SDWebImage.framework"; sourceTree = "<group>"; };
+		4B12F9AD1E67ABE800CFCEB0 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		4B12F9AE1E67ABE800CFCEB0 /* TutorialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TutorialViewController.xib; sourceTree = "<group>"; };
+		4B12F9C51E67BD5200CFCEB0 /* slide1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slide1@2x.png"; sourceTree = "<group>"; };
+		4B12F9C61E67BD5200CFCEB0 /* slide1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slide1@3x.png"; sourceTree = "<group>"; };
+		4B12F9C91E67BD7900CFCEB0 /* slide2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slide2@2x.png"; sourceTree = "<group>"; };
+		4B12F9CA1E67BD7900CFCEB0 /* slide2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slide2@3x.png"; sourceTree = "<group>"; };
+		4B12F9CB1E67BD7900CFCEB0 /* slide3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slide3@2x.png"; sourceTree = "<group>"; };
+		4B12F9CC1E67BD7900CFCEB0 /* slide3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slide3@3x.png"; sourceTree = "<group>"; };
+		4B12F9CD1E67BD7900CFCEB0 /* slide4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slide4@2x.png"; sourceTree = "<group>"; };
+		4B12F9CE1E67BD7900CFCEB0 /* slide4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slide4@3x.png"; sourceTree = "<group>"; };
 		7E04E8BEA6157E762A083D90 /* Pods_BaseProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A818447351B716E7B9A140E9 /* Pods-BaseProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProjectTests/Pods-BaseProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		D7BE8506AF35D78FC5F77698 /* Pods-BaseProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProjectTests/Pods-BaseProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -218,6 +238,7 @@
 		30FB28D81E66838B008F10B6 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				4B12F9AC1E67ABD000CFCEB0 /* TutorialViewController */,
 				30FB29621E669CD8008F10B6 /* LoginViewController */,
 				30FB293C1E669280008F10B6 /* TopViewController */,
 				30FB29431E6692D6008F10B6 /* ResumeViewController */,
@@ -233,6 +254,14 @@
 		30FB28DF1E6686C2008F10B6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4B12F9C91E67BD7900CFCEB0 /* slide2@2x.png */,
+				4B12F9CA1E67BD7900CFCEB0 /* slide2@3x.png */,
+				4B12F9CB1E67BD7900CFCEB0 /* slide3@2x.png */,
+				4B12F9CC1E67BD7900CFCEB0 /* slide3@3x.png */,
+				4B12F9CD1E67BD7900CFCEB0 /* slide4@2x.png */,
+				4B12F9CE1E67BD7900CFCEB0 /* slide4@3x.png */,
+				4B12F9C51E67BD5200CFCEB0 /* slide1@2x.png */,
+				4B12F9C61E67BD5200CFCEB0 /* slide1@3x.png */,
 				30FB290F1E6691DA008F10B6 /* tab_message.png */,
 				30FB29101E6691DA008F10B6 /* tab_message@2x.png */,
 				30FB29111E6691DA008F10B6 /* tab_message@3x.png */,
@@ -304,6 +333,16 @@
 				30FB29641E669D06008F10B6 /* LoginViewController.xib */,
 			);
 			name = LoginViewController;
+			sourceTree = "<group>";
+		};
+		4B12F9AC1E67ABD000CFCEB0 /* TutorialViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B12F9AD1E67ABE800CFCEB0 /* TutorialViewController.swift */,
+				4B12F9AE1E67ABE800CFCEB0 /* TutorialViewController.xib */,
+			);
+			name = TutorialViewController;
+			path = ViewController/TutorialViewController;
 			sourceTree = "<group>";
 		};
 		9A36821E34E8F25EA1EBEC85 /* Frameworks */ = {
@@ -424,6 +463,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30FB29241E6691DA008F10B6 /* tab_resume.png in Resources */,
+				4B12F9CF1E67BD7900CFCEB0 /* slide2@2x.png in Resources */,
 				30FB29261E6691DA008F10B6 /* tab_resume@2x.png in Resources */,
 				30FB29381E6691DA008F10B6 /* tab_top@2x.png in Resources */,
 				30D9CF7C1E6677E5007E6380 /* LaunchScreen.storyboard in Resources */,
@@ -432,20 +472,28 @@
 				30FB29201E6691DA008F10B6 /* tab_message@2x.png in Resources */,
 				30FB29221E6691DA008F10B6 /* tab_message@3x.png in Resources */,
 				30FB29671E669D06008F10B6 /* LoginViewController.xib in Resources */,
+				4B12F9D01E67BD7900CFCEB0 /* slide2@3x.png in Resources */,
 				30D9CF791E6677E5007E6380 /* Assets.xcassets in Resources */,
 				30FB29361E6691DA008F10B6 /* tab_top.png in Resources */,
 				30FB29341E6691DA008F10B6 /* tab_settings@3x.png in Resources */,
+				4B12F9C81E67BD5200CFCEB0 /* slide1@3x.png in Resources */,
+				4B12F9D31E67BD7900CFCEB0 /* slide4@2x.png in Resources */,
+				4B12F9C71E67BD5200CFCEB0 /* slide1@2x.png in Resources */,
 				30FB292A1E6691DA008F10B6 /* tab_schedule.png in Resources */,
 				30FB29301E6691DA008F10B6 /* tab_settings.png in Resources */,
 				30FB29481E6692F1008F10B6 /* ResumeViewController.xib in Resources */,
 				30FB29281E6691DA008F10B6 /* tab_resume@3x.png in Resources */,
+				4B12F9D11E67BD7900CFCEB0 /* slide3@2x.png in Resources */,
 				30FB28DC1E6683B3008F10B6 /* MainViewController.xib in Resources */,
 				30FB292E1E6691DA008F10B6 /* tab_schedule@3x.png in Resources */,
 				30FB294F1E66932E008F10B6 /* MessageViewController.xib in Resources */,
 				30FB29321E6691DA008F10B6 /* tab_settings@2x.png in Resources */,
 				30FB29561E66937C008F10B6 /* ScheduleViewController.xib in Resources */,
+				4B12F9B01E67ABE800CFCEB0 /* TutorialViewController.xib in Resources */,
+				4B12F9D21E67BD7900CFCEB0 /* slide3@3x.png in Resources */,
 				30FB29411E6692B1008F10B6 /* TopViewController.xib in Resources */,
 				30FB295D1E6693B0008F10B6 /* AccountViewController.xib in Resources */,
+				4B12F9D41E67BD7900CFCEB0 /* slide4@3x.png in Resources */,
 				30FB293A1E6691DA008F10B6 /* tab_top@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -543,6 +591,7 @@
 				30FB293F1E6692B1008F10B6 /* TopViewController.swift in Sources */,
 				30FB294D1E66932E008F10B6 /* MessageViewController.swift in Sources */,
 				30FB295B1E6693B0008F10B6 /* AccountViewController.swift in Sources */,
+				4B12F9AF1E67ABE800CFCEB0 /* TutorialViewController.swift in Sources */,
 				30FB29651E669D06008F10B6 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

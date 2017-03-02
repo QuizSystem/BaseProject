@@ -16,13 +16,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         self.window = UIWindow(frame: UIScreen.main.bounds)
-        let loginViewController = LoginViewController(nibName: "LoginViewController", bundle: nil)
-        let nav = BaseNavigationController(rootViewController: loginViewController)
-        nav.navigationBar.isTranslucent = false
-        self.window?.rootViewController = nav
+        let tutorialViewController = TutorialViewController(nibName: "TutorialViewController", bundle: nil)
+        self.window?.rootViewController = tutorialViewController
         self.window?.makeKeyAndVisible()
         UIApplication.shared.setStatusBarStyle(.lightContent, animated: false)
-        return FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
+        FBSDKApplicationDelegate.sharedInstance().application(application,
+            didFinishLaunchingWithOptions: launchOptions)
+        return true
     }
     
     func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {

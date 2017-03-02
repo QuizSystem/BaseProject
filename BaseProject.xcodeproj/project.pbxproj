@@ -85,6 +85,8 @@
 		4B12F9DE1E67CF2900CFCEB0 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B12F9DC1E67CF2900CFCEB0 /* RegisterViewController.xib */; };
 		4B12F9E21E6812D300CFCEB0 /* PolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B12F9E01E6812D300CFCEB0 /* PolicyViewController.swift */; };
 		4B12F9E31E6812D300CFCEB0 /* PolicyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B12F9E11E6812D300CFCEB0 /* PolicyViewController.xib */; };
+		4B12F9E61E68180900CFCEB0 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B12F9E51E68180900CFCEB0 /* UIViewController+Extensions.swift */; };
+		4B12F9E81E68181100CFCEB0 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B12F9E71E68181100CFCEB0 /* UIView+Extensions.swift */; };
 		AF5A078CA4751E7879CC22F1 /* Pods_BaseProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E04E8BEA6157E762A083D90 /* Pods_BaseProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -162,6 +164,8 @@
 		4B12F9DC1E67CF2900CFCEB0 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
 		4B12F9E01E6812D300CFCEB0 /* PolicyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PolicyViewController.swift; sourceTree = "<group>"; };
 		4B12F9E11E6812D300CFCEB0 /* PolicyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PolicyViewController.xib; sourceTree = "<group>"; };
+		4B12F9E51E68180900CFCEB0 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		4B12F9E71E68181100CFCEB0 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		7E04E8BEA6157E762A083D90 /* Pods_BaseProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A818447351B716E7B9A140E9 /* Pods-BaseProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProjectTests/Pods-BaseProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		D7BE8506AF35D78FC5F77698 /* Pods-BaseProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProjectTests/Pods-BaseProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -212,6 +216,7 @@
 		30D9CF701E6677E5007E6380 /* BaseProject */ = {
 			isa = PBXGroup;
 			children = (
+				4B12F9E41E6817F100CFCEB0 /* Extensions */,
 				30FB28DF1E6686C2008F10B6 /* Resources */,
 				30FB28D81E66838B008F10B6 /* ViewController */,
 				30FB28D51E66832B008F10B6 /* Base */,
@@ -373,6 +378,15 @@
 			);
 			name = PolicyViewController;
 			path = ViewController/PolicyViewController;
+			sourceTree = "<group>";
+		};
+		4B12F9E41E6817F100CFCEB0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4B12F9E51E68180900CFCEB0 /* UIViewController+Extensions.swift */,
+				4B12F9E71E68181100CFCEB0 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		9A36821E34E8F25EA1EBEC85 /* Frameworks */ = {
@@ -619,7 +633,9 @@
 				30FB29601E6693FB008F10B6 /* BaseTabBarViewController.swift in Sources */,
 				30FB29541E66937C008F10B6 /* ScheduleViewController.swift in Sources */,
 				30FB29461E6692F1008F10B6 /* ResumeViewController.swift in Sources */,
+				4B12F9E81E68181100CFCEB0 /* UIView+Extensions.swift in Sources */,
 				4B12F9E21E6812D300CFCEB0 /* PolicyViewController.swift in Sources */,
+				4B12F9E61E68180900CFCEB0 /* UIViewController+Extensions.swift in Sources */,
 				30FB28DB1E6683B3008F10B6 /* MainViewController.swift in Sources */,
 				30FB293F1E6692B1008F10B6 /* TopViewController.swift in Sources */,
 				30FB294D1E66932E008F10B6 /* MessageViewController.swift in Sources */,

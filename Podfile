@@ -8,5 +8,6 @@ target 'BaseProject' do
     pod 'FBSDKLoginKit'
     pod 'ActiveLabel'
     pod 'SVProgressHUD'
+    pod 'PasswordTextField'
 
 end

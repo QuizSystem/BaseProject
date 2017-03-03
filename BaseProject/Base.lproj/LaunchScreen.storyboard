@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -24,7 +24,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bRE-ue-7sd">
-                                <rect key="frame" x="127.5" y="213.5" width="120" height="120"/>
+                                <rect key="frame" x="131.5" y="221.5" width="112" height="112"/>
                                 <color key="backgroundColor" red="1" green="0.14030750010000001" blue="0.2399435473" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="bRE-ue-7sd" secondAttribute="height" multiplier="1:1" id="YkM-7t-XJl"/>
@@ -41,7 +41,7 @@
                         <constraints>
                             <constraint firstItem="bRE-ue-7sd" firstAttribute="bottom" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="KQ7-QL-ZrN"/>
                             <constraint firstItem="PnG-N1-zrr" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="OGa-tU-NvB"/>
-                            <constraint firstItem="bRE-ue-7sd" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="120:667" id="U4f-wi-hry"/>
+                            <constraint firstItem="bRE-ue-7sd" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="112:667" id="U4f-wi-hry"/>
                             <constraint firstItem="PnG-N1-zrr" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="48" id="fkj-5k-T0D"/>
                             <constraint firstItem="bRE-ue-7sd" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="hvX-LH-fnV"/>
                         </constraints>

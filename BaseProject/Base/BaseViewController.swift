@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SVProgressHUD
 
 class BaseViewController: UIViewController {
 
@@ -15,20 +16,15 @@ class BaseViewController: UIViewController {
         self.view.backgroundColor = UIColor(red: 254.0 / 255.0, green: 211.0 / 255.0, blue: 0.0 / 255.0, alpha: 1.0)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func addCustomBackButton() {
+        let backButton = UIBarButtonItem(image: UIImage(named: "icon_back.png"),
+            style: .plain, target: self, action: #selector(closeButtonTapped))
+        self.navigationItem.leftBarButtonItem = backButton
     }
-    
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func closeButtonTapped() {
+        SVProgressHUD.dismiss()
+        _ = self.navigationController?.popViewController(animated: true)
     }
-    */
 
 }

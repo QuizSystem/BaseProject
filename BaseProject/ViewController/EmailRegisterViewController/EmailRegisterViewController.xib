@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EmailRegisterViewController" customModule="BaseProject" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KgQ-9q-0OF" customClass="PasswordTextField" customModule="PasswordTextField">
+                    <rect key="frame" x="54.5" y="334" width="266" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="dmH-Of-09U"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="imageTintColor">
+                            <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="image" keyPath="customShowSecureTextImage" value="ic_eye_open.png"/>
+                        <userDefinedRuntimeAttribute type="image" keyPath="customHideSecureTextImage" value="ic_eye_closed.png"/>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="在ほろむ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Klr-0b-5LX">
+                    <rect key="frame" x="131.5" y="44" width="113.5" height="33.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pvX-Uo-caS">
+                    <rect key="frame" x="54.5" y="194" width="266" height="40"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="索ぜ走主ミ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8xu-KX-I5j">
+                    <rect key="frame" x="54.5" y="306" width="82" height="20"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="*シ潘34過ヤト装日しあ法" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g8O-X9-JSw">
+                    <rect key="frame" x="54.5" y="382" width="144" height="15"/>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
+                    <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fJW-Fc-JHa" customClass="PasswordTextField" customModule="PasswordTextField">
+                    <rect key="frame" x="54.5" y="442" width="266" height="40"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="imageTintColor">
+                            <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="image" keyPath="customShowSecureTextImage" value="ic_eye_open.png"/>
+                        <userDefinedRuntimeAttribute type="image" keyPath="customHideSecureTextImage" value="ic_eye_closed.png"/>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="索ぜ走主ミ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eF9-uq-2WW">
+                    <rect key="frame" x="54.5" y="414" width="82" height="20"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="*シ潘34過ヤト装日しあ法" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RAx-Rk-6Oe">
+                    <rect key="frame" x="54.5" y="490" width="144" height="15"/>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
+                    <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[気枝]" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="43q-zS-Set">
+                    <rect key="frame" x="160.5" y="414" width="44" height="20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="更人らいと" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k3I-3q-WXj">
+                    <rect key="frame" x="54.5" y="166" width="82" height="20"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="*シ潘34過ヤト装日しあ法" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XpF-MM-RTh">
+                    <rect key="frame" x="54.5" y="242" width="144" height="15"/>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
+                    <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="79g-BZ-nCv">
+                    <rect key="frame" x="115.5" y="557" width="144" height="40"/>
+                    <color key="backgroundColor" red="0.98039215690000003" green="0.75686274509999996" blue="0.027450980390000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="144" id="dOe-lp-K2B"/>
+                        <constraint firstAttribute="height" constant="40" id="duY-hl-QEP"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="当材">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="XpF-MM-RTh" firstAttribute="leading" secondItem="pvX-Uo-caS" secondAttribute="leading" id="1L0-Ll-4f5"/>
+                <constraint firstItem="fJW-Fc-JHa" firstAttribute="height" secondItem="KgQ-9q-0OF" secondAttribute="height" id="2rL-6j-sJL"/>
+                <constraint firstItem="KgQ-9q-0OF" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="8sB-LL-XLq"/>
+                <constraint firstItem="k3I-3q-WXj" firstAttribute="leading" secondItem="pvX-Uo-caS" secondAttribute="leading" id="ASZ-yh-77l"/>
+                <constraint firstItem="fJW-Fc-JHa" firstAttribute="width" secondItem="KgQ-9q-0OF" secondAttribute="width" id="DKF-RB-ZMe"/>
+                <constraint firstItem="pvX-Uo-caS" firstAttribute="width" secondItem="KgQ-9q-0OF" secondAttribute="width" id="Din-ED-nKB"/>
+                <constraint firstAttribute="bottom" secondItem="79g-BZ-nCv" secondAttribute="bottom" constant="70" id="GrL-gL-bqi"/>
+                <constraint firstItem="XpF-MM-RTh" firstAttribute="top" secondItem="pvX-Uo-caS" secondAttribute="bottom" constant="8" id="LZH-jU-G7U"/>
+                <constraint firstItem="KgQ-9q-0OF" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Mtx-LW-C9S"/>
+                <constraint firstItem="8xu-KX-I5j" firstAttribute="leading" secondItem="KgQ-9q-0OF" secondAttribute="leading" id="OpJ-B2-q71"/>
+                <constraint firstItem="79g-BZ-nCv" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Pgs-qF-tnz"/>
+                <constraint firstItem="KgQ-9q-0OF" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="266:375" id="RXV-uU-Qa4"/>
+                <constraint firstItem="fJW-Fc-JHa" firstAttribute="top" secondItem="eF9-uq-2WW" secondAttribute="bottom" constant="8" id="XCH-hH-bkV"/>
+                <constraint firstItem="pvX-Uo-caS" firstAttribute="top" secondItem="k3I-3q-WXj" secondAttribute="bottom" constant="8" id="a2Y-Y5-U5J"/>
+                <constraint firstItem="g8O-X9-JSw" firstAttribute="leading" secondItem="KgQ-9q-0OF" secondAttribute="leading" id="b57-Tq-pzI"/>
+                <constraint firstItem="43q-zS-Set" firstAttribute="baseline" secondItem="eF9-uq-2WW" secondAttribute="baseline" id="cs8-er-QXt"/>
+                <constraint firstItem="RAx-Rk-6Oe" firstAttribute="leading" secondItem="fJW-Fc-JHa" secondAttribute="leading" id="d2e-ax-UTE"/>
+                <constraint firstItem="g8O-X9-JSw" firstAttribute="top" secondItem="KgQ-9q-0OF" secondAttribute="bottom" constant="8" id="dn5-Re-iRS"/>
+                <constraint firstItem="Klr-0b-5LX" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="44" id="eVI-zw-ofh"/>
+                <constraint firstItem="8xu-KX-I5j" firstAttribute="top" secondItem="pvX-Uo-caS" secondAttribute="bottom" constant="72" id="ge0-8k-KFE"/>
+                <constraint firstItem="RAx-Rk-6Oe" firstAttribute="top" secondItem="fJW-Fc-JHa" secondAttribute="bottom" constant="8" id="kf3-ze-xhc"/>
+                <constraint firstItem="KgQ-9q-0OF" firstAttribute="top" secondItem="8xu-KX-I5j" secondAttribute="bottom" constant="8" id="o42-8F-Tt2"/>
+                <constraint firstItem="Klr-0b-5LX" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="oDG-Pf-wey"/>
+                <constraint firstItem="pvX-Uo-caS" firstAttribute="leading" secondItem="KgQ-9q-0OF" secondAttribute="leading" id="pfL-4d-kMp"/>
+                <constraint firstItem="eF9-uq-2WW" firstAttribute="top" secondItem="KgQ-9q-0OF" secondAttribute="bottom" constant="40" id="r7z-EL-Eyo"/>
+                <constraint firstItem="fJW-Fc-JHa" firstAttribute="leading" secondItem="KgQ-9q-0OF" secondAttribute="leading" id="sRw-PM-sTd"/>
+                <constraint firstItem="eF9-uq-2WW" firstAttribute="leading" secondItem="fJW-Fc-JHa" secondAttribute="leading" id="t0H-1Z-1D2"/>
+                <constraint firstItem="pvX-Uo-caS" firstAttribute="height" secondItem="KgQ-9q-0OF" secondAttribute="height" id="tLS-fj-hsi"/>
+                <constraint firstItem="43q-zS-Set" firstAttribute="leading" secondItem="eF9-uq-2WW" secondAttribute="trailing" constant="24" id="wZ9-rL-eET"/>
+            </constraints>
+            <point key="canvasLocation" x="25.5" y="51.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_eye_closed.png" width="17" height="13"/>
+        <image name="ic_eye_open.png" width="17" height="11"/>
+    </resources>
+</document>

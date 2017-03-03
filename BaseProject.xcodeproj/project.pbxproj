@@ -79,19 +79,18 @@
 		4B12F9E31E6812D300CFCEB0 /* PolicyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B12F9E11E6812D300CFCEB0 /* PolicyViewController.xib */; };
 		4B12F9E61E68180900CFCEB0 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B12F9E51E68180900CFCEB0 /* UIViewController+Extensions.swift */; };
 		4B12F9E81E68181100CFCEB0 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B12F9E71E68181100CFCEB0 /* UIView+Extensions.swift */; };
-		4B22967C1E69026500B40AB0 /* icon_cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B22967A1E69026500B40AB0 /* icon_cancel.png */; };
-		4B2296911E690E9700B40AB0 /* slide1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B2296851E690E9700B40AB0 /* slide1.png */; };
-		4B2296921E690E9700B40AB0 /* slide1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B2296861E690E9700B40AB0 /* slide1@2x.png */; };
-		4B2296931E690E9700B40AB0 /* slide1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B2296871E690E9700B40AB0 /* slide1@3x.png */; };
-		4B2296941E690E9700B40AB0 /* slide2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B2296881E690E9700B40AB0 /* slide2.png */; };
-		4B2296951E690E9700B40AB0 /* slide2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B2296891E690E9700B40AB0 /* slide2@2x.png */; };
-		4B2296961E690E9700B40AB0 /* slide2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B22968A1E690E9700B40AB0 /* slide2@3x.png */; };
-		4B2296971E690E9700B40AB0 /* slide3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B22968B1E690E9700B40AB0 /* slide3.png */; };
-		4B2296981E690E9700B40AB0 /* slide3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B22968C1E690E9700B40AB0 /* slide3@2x.png */; };
-		4B2296991E690E9700B40AB0 /* slide3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B22968D1E690E9700B40AB0 /* slide3@3x.png */; };
-		4B22969A1E690E9700B40AB0 /* slide4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B22968E1E690E9700B40AB0 /* slide4.png */; };
-		4B22969B1E690E9700B40AB0 /* slide4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B22968F1E690E9700B40AB0 /* slide4@2x.png */; };
-		4B22969C1E690E9700B40AB0 /* slide4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B2296901E690E9700B40AB0 /* slide4@3x.png */; };
+		4B3B75971E693FB800B0DFFB /* icon_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3B75941E693FB800B0DFFB /* icon_back.png */; };
+		4B3B75981E693FB800B0DFFB /* icon_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3B75951E693FB800B0DFFB /* icon_back@2x.png */; };
+		4B3B75991E693FB900B0DFFB /* icon_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3B75961E693FB800B0DFFB /* icon_back@3x.png */; };
+		4B3B759D1E69416100B0DFFB /* EmailRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B759B1E69416100B0DFFB /* EmailRegisterViewController.swift */; };
+		4B3B759E1E69416100B0DFFB /* EmailRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B3B759C1E69416100B0DFFB /* EmailRegisterViewController.xib */; };
+		4B3B75A51E69420600B0DFFB /* ic_eye_closed.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3B759F1E69420600B0DFFB /* ic_eye_closed.png */; };
+		4B3B75A61E69420600B0DFFB /* ic_eye_closed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3B75A01E69420600B0DFFB /* ic_eye_closed@2x.png */; };
+		4B3B75A71E69420600B0DFFB /* ic_eye_closed@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3B75A11E69420600B0DFFB /* ic_eye_closed@3x.png */; };
+		4B3B75A81E69420600B0DFFB /* ic_eye_open.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3B75A21E69420600B0DFFB /* ic_eye_open.png */; };
+		4B3B75A91E69420600B0DFFB /* ic_eye_open@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3B75A31E69420600B0DFFB /* ic_eye_open@2x.png */; };
+		4B3B75AA1E69420600B0DFFB /* ic_eye_open@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3B75A41E69420600B0DFFB /* ic_eye_open@3x.png */; };
+		4B3B75AC1E69636900B0DFFB /* icon_facebook_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3B75AB1E69636900B0DFFB /* icon_facebook_circle.png */; };
 		AF5A078CA4751E7879CC22F1 /* Pods_BaseProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E04E8BEA6157E762A083D90 /* Pods_BaseProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -163,19 +162,18 @@
 		4B12F9E11E6812D300CFCEB0 /* PolicyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PolicyViewController.xib; sourceTree = "<group>"; };
 		4B12F9E51E68180900CFCEB0 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		4B12F9E71E68181100CFCEB0 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
-		4B22967A1E69026500B40AB0 /* icon_cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_cancel.png; path = Resources/icon_cancel.png; sourceTree = "<group>"; };
-		4B2296851E690E9700B40AB0 /* slide1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = slide1.png; path = Resources/slide1.png; sourceTree = "<group>"; };
-		4B2296861E690E9700B40AB0 /* slide1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "slide1@2x.png"; path = "Resources/slide1@2x.png"; sourceTree = "<group>"; };
-		4B2296871E690E9700B40AB0 /* slide1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "slide1@3x.png"; path = "Resources/slide1@3x.png"; sourceTree = "<group>"; };
-		4B2296881E690E9700B40AB0 /* slide2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = slide2.png; path = Resources/slide2.png; sourceTree = "<group>"; };
-		4B2296891E690E9700B40AB0 /* slide2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "slide2@2x.png"; path = "Resources/slide2@2x.png"; sourceTree = "<group>"; };
-		4B22968A1E690E9700B40AB0 /* slide2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "slide2@3x.png"; path = "Resources/slide2@3x.png"; sourceTree = "<group>"; };
-		4B22968B1E690E9700B40AB0 /* slide3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = slide3.png; path = Resources/slide3.png; sourceTree = "<group>"; };
-		4B22968C1E690E9700B40AB0 /* slide3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "slide3@2x.png"; path = "Resources/slide3@2x.png"; sourceTree = "<group>"; };
-		4B22968D1E690E9700B40AB0 /* slide3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "slide3@3x.png"; path = "Resources/slide3@3x.png"; sourceTree = "<group>"; };
-		4B22968E1E690E9700B40AB0 /* slide4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = slide4.png; path = Resources/slide4.png; sourceTree = "<group>"; };
-		4B22968F1E690E9700B40AB0 /* slide4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "slide4@2x.png"; path = "Resources/slide4@2x.png"; sourceTree = "<group>"; };
-		4B2296901E690E9700B40AB0 /* slide4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "slide4@3x.png"; path = "Resources/slide4@3x.png"; sourceTree = "<group>"; };
+		4B3B75941E693FB800B0DFFB /* icon_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_back.png; path = Resources/icon_back.png; sourceTree = "<group>"; };
+		4B3B75951E693FB800B0DFFB /* icon_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_back@2x.png"; path = "Resources/icon_back@2x.png"; sourceTree = "<group>"; };
+		4B3B75961E693FB800B0DFFB /* icon_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_back@3x.png"; path = "Resources/icon_back@3x.png"; sourceTree = "<group>"; };
+		4B3B759B1E69416100B0DFFB /* EmailRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailRegisterViewController.swift; sourceTree = "<group>"; };
+		4B3B759C1E69416100B0DFFB /* EmailRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmailRegisterViewController.xib; sourceTree = "<group>"; };
+		4B3B759F1E69420600B0DFFB /* ic_eye_closed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_eye_closed.png; path = Resources/ic_eye_closed.png; sourceTree = "<group>"; };
+		4B3B75A01E69420600B0DFFB /* ic_eye_closed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_eye_closed@2x.png"; path = "Resources/ic_eye_closed@2x.png"; sourceTree = "<group>"; };
+		4B3B75A11E69420600B0DFFB /* ic_eye_closed@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_eye_closed@3x.png"; path = "Resources/ic_eye_closed@3x.png"; sourceTree = "<group>"; };
+		4B3B75A21E69420600B0DFFB /* ic_eye_open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_eye_open.png; path = Resources/ic_eye_open.png; sourceTree = "<group>"; };
+		4B3B75A31E69420600B0DFFB /* ic_eye_open@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_eye_open@2x.png"; path = "Resources/ic_eye_open@2x.png"; sourceTree = "<group>"; };
+		4B3B75A41E69420600B0DFFB /* ic_eye_open@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_eye_open@3x.png"; path = "Resources/ic_eye_open@3x.png"; sourceTree = "<group>"; };
+		4B3B75AB1E69636900B0DFFB /* icon_facebook_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_facebook_circle.png; path = Resources/icon_facebook_circle.png; sourceTree = "<group>"; };
 		7E04E8BEA6157E762A083D90 /* Pods_BaseProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A818447351B716E7B9A140E9 /* Pods-BaseProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProjectTests/Pods-BaseProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		D7BE8506AF35D78FC5F77698 /* Pods-BaseProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProjectTests/Pods-BaseProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -262,6 +260,7 @@
 		30FB28D81E66838B008F10B6 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				4B3B759A1E69415200B0DFFB /* EmailRegisterViewController */,
 				4B12F9DF1E6812C800CFCEB0 /* PolicyViewController */,
 				4B12F9DA1E67CF1800CFCEB0 /* RegisterViewController */,
 				4B12F9AC1E67ABD000CFCEB0 /* TutorialViewController */,
@@ -280,19 +279,16 @@
 		30FB28DF1E6686C2008F10B6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4B2296851E690E9700B40AB0 /* slide1.png */,
-				4B2296861E690E9700B40AB0 /* slide1@2x.png */,
-				4B2296871E690E9700B40AB0 /* slide1@3x.png */,
-				4B2296881E690E9700B40AB0 /* slide2.png */,
-				4B2296891E690E9700B40AB0 /* slide2@2x.png */,
-				4B22968A1E690E9700B40AB0 /* slide2@3x.png */,
-				4B22968B1E690E9700B40AB0 /* slide3.png */,
-				4B22968C1E690E9700B40AB0 /* slide3@2x.png */,
-				4B22968D1E690E9700B40AB0 /* slide3@3x.png */,
-				4B22968E1E690E9700B40AB0 /* slide4.png */,
-				4B22968F1E690E9700B40AB0 /* slide4@2x.png */,
-				4B2296901E690E9700B40AB0 /* slide4@3x.png */,
-				4B22967A1E69026500B40AB0 /* icon_cancel.png */,
+				4B3B75AB1E69636900B0DFFB /* icon_facebook_circle.png */,
+				4B3B759F1E69420600B0DFFB /* ic_eye_closed.png */,
+				4B3B75A01E69420600B0DFFB /* ic_eye_closed@2x.png */,
+				4B3B75A11E69420600B0DFFB /* ic_eye_closed@3x.png */,
+				4B3B75A21E69420600B0DFFB /* ic_eye_open.png */,
+				4B3B75A31E69420600B0DFFB /* ic_eye_open@2x.png */,
+				4B3B75A41E69420600B0DFFB /* ic_eye_open@3x.png */,
+				4B3B75941E693FB800B0DFFB /* icon_back.png */,
+				4B3B75951E693FB800B0DFFB /* icon_back@2x.png */,
+				4B3B75961E693FB800B0DFFB /* icon_back@3x.png */,
 				30FB290F1E6691DA008F10B6 /* tab_message.png */,
 				30FB29101E6691DA008F10B6 /* tab_message@2x.png */,
 				30FB29111E6691DA008F10B6 /* tab_message@3x.png */,
@@ -412,6 +408,16 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		4B3B759A1E69415200B0DFFB /* EmailRegisterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B3B759B1E69416100B0DFFB /* EmailRegisterViewController.swift */,
+				4B3B759C1E69416100B0DFFB /* EmailRegisterViewController.xib */,
+			);
+			name = EmailRegisterViewController;
+			path = ViewController/EmailRegisterViewController;
+			sourceTree = "<group>";
+		};
 		9A36821E34E8F25EA1EBEC85 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -529,23 +535,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B2296961E690E9700B40AB0 /* slide2@3x.png in Resources */,
-				4B2296941E690E9700B40AB0 /* slide2.png in Resources */,
 				30FB29241E6691DA008F10B6 /* tab_resume.png in Resources */,
 				30FB29261E6691DA008F10B6 /* tab_resume@2x.png in Resources */,
 				30FB29381E6691DA008F10B6 /* tab_top@2x.png in Resources */,
+				4B3B75991E693FB900B0DFFB /* icon_back@3x.png in Resources */,
 				30D9CF7C1E6677E5007E6380 /* LaunchScreen.storyboard in Resources */,
 				30FB292C1E6691DA008F10B6 /* tab_schedule@2x.png in Resources */,
 				30FB291E1E6691DA008F10B6 /* tab_message.png in Resources */,
-				4B2296921E690E9700B40AB0 /* slide1@2x.png in Resources */,
 				30FB29201E6691DA008F10B6 /* tab_message@2x.png in Resources */,
+				4B3B75A81E69420600B0DFFB /* ic_eye_open.png in Resources */,
+				4B3B75A51E69420600B0DFFB /* ic_eye_closed.png in Resources */,
 				30FB29221E6691DA008F10B6 /* tab_message@3x.png in Resources */,
+				4B3B75A91E69420600B0DFFB /* ic_eye_open@2x.png in Resources */,
 				30FB29671E669D06008F10B6 /* LoginViewController.xib in Resources */,
 				30D9CF791E6677E5007E6380 /* Assets.xcassets in Resources */,
 				30FB29361E6691DA008F10B6 /* tab_top.png in Resources */,
-				4B2296981E690E9700B40AB0 /* slide3@2x.png in Resources */,
 				30FB29341E6691DA008F10B6 /* tab_settings@3x.png in Resources */,
-				4B2296951E690E9700B40AB0 /* slide2@2x.png in Resources */,
+				4B3B75A61E69420600B0DFFB /* ic_eye_closed@2x.png in Resources */,
+				4B3B75981E693FB800B0DFFB /* icon_back@2x.png in Resources */,
+				4B3B75AA1E69420600B0DFFB /* ic_eye_open@3x.png in Resources */,
 				4B12F9DE1E67CF2900CFCEB0 /* RegisterViewController.xib in Resources */,
 				30FB292A1E6691DA008F10B6 /* tab_schedule.png in Resources */,
 				30FB29301E6691DA008F10B6 /* tab_settings.png in Resources */,
@@ -553,19 +561,15 @@
 				30FB29281E6691DA008F10B6 /* tab_resume@3x.png in Resources */,
 				4B12F9E31E6812D300CFCEB0 /* PolicyViewController.xib in Resources */,
 				30FB28DC1E6683B3008F10B6 /* MainViewController.xib in Resources */,
-				4B22969C1E690E9700B40AB0 /* slide4@3x.png in Resources */,
-				4B2296911E690E9700B40AB0 /* slide1.png in Resources */,
+				4B3B75AC1E69636900B0DFFB /* icon_facebook_circle.png in Resources */,
 				30FB292E1E6691DA008F10B6 /* tab_schedule@3x.png in Resources */,
-				4B2296971E690E9700B40AB0 /* slide3.png in Resources */,
+				4B3B75A71E69420600B0DFFB /* ic_eye_closed@3x.png in Resources */,
+				4B3B759E1E69416100B0DFFB /* EmailRegisterViewController.xib in Resources */,
 				30FB294F1E66932E008F10B6 /* MessageViewController.xib in Resources */,
-				4B2296991E690E9700B40AB0 /* slide3@3x.png in Resources */,
-				4B2296931E690E9700B40AB0 /* slide1@3x.png in Resources */,
-				4B22969A1E690E9700B40AB0 /* slide4.png in Resources */,
 				30FB29321E6691DA008F10B6 /* tab_settings@2x.png in Resources */,
+				4B3B75971E693FB800B0DFFB /* icon_back.png in Resources */,
 				30FB29561E66937C008F10B6 /* ScheduleViewController.xib in Resources */,
 				4B12F9B01E67ABE800CFCEB0 /* TutorialViewController.xib in Resources */,
-				4B22969B1E690E9700B40AB0 /* slide4@2x.png in Resources */,
-				4B22967C1E69026500B40AB0 /* icon_cancel.png in Resources */,
 				30FB29411E6692B1008F10B6 /* TopViewController.xib in Resources */,
 				30FB295D1E6693B0008F10B6 /* AccountViewController.xib in Resources */,
 				30FB293A1E6691DA008F10B6 /* tab_top@3x.png in Resources */,
@@ -657,6 +661,7 @@
 			files = (
 				30D9CF721E6677E5007E6380 /* AppDelegate.swift in Sources */,
 				30FB28D71E668371008F10B6 /* BaseViewController.swift in Sources */,
+				4B3B759D1E69416100B0DFFB /* EmailRegisterViewController.swift in Sources */,
 				30FB28DE1E668412008F10B6 /* BaseNavigationController.swift in Sources */,
 				30FB29601E6693FB008F10B6 /* BaseTabBarViewController.swift in Sources */,
 				30FB29541E66937C008F10B6 /* ScheduleViewController.swift in Sources */,

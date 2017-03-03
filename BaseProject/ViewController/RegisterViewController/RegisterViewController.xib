@@ -27,13 +27,25 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f0e-vr-PIQ" customClass="ActiveLabel" customModule="ActiveLabel">
-                    <rect key="frame" x="16" y="125" width="343" height="28"/>
+                    <rect key="frame" x="16" y="125" width="343" height="51"/>
                     <gestureRecognizers/>
                     <attributedString key="attributedText">
-                        <fragment content="By using this application, you agree to our Terms of Use and Privacy Policy. After this can have more text">
+                        <fragment content="記おこつ態農頼香ヌオヒ駐彼まざ占組ぎきぱで竹就備どよ momdoきや考根ヒアム載新つれげ小出ヌヱク断">
+                            <attributes>
+                                <font key="NSFont" size="12" name="PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="5">
                             <attributes>
                                 <font key="NSFont" size="12" name="Helvetica"/>
-                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="者ヒヨオム台好そげッら近性季をにル">
+                            <attributes>
+                                <font key="NSFont" size="12" name="PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                             </attributes>
                         </fragment>
                     </attributedString>
@@ -43,7 +55,7 @@
                     <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Up-aE-Nhu">
-                            <rect key="frame" x="0.0" y="0.0" width="375" height="0.5"/>
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="1"/>
                             <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="0.5" id="QP3-4q-gPO"/>
@@ -68,7 +80,7 @@
                     </constraints>
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="880-YD-tQo">
-                    <rect key="frame" x="31.5" y="499" width="311" height="30"/>
+                    <rect key="frame" x="32" y="499" width="311" height="30"/>
                     <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal" title="Register with Facebook">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

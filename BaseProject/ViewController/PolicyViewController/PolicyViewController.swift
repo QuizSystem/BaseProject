@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SVProgressHUD
 
 class PolicyViewController: BaseViewController {
 
@@ -14,6 +15,7 @@ class PolicyViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         guard let url = URL(string: "http://www.apple.com/shop/help/shopping_experience") else {
             return
         }
@@ -24,7 +26,20 @@ class PolicyViewController: BaseViewController {
     // MARK: - IBActions
     
     @IBAction func closeButtonTapped(_ sender: Any) {
+        SVProgressHUD.dismiss()
         self.dismiss(animated: true, completion: nil)
+    }
+
+}
+
+extension PolicyViewController: UIWebViewDelegate {
+
+    func webViewDidStartLoad(_ webView: UIWebView) {
+        SVProgressHUD.show(withStatus: "Loading...")
+    }
+
+    func webViewDidFinishLoad(_ webView: UIWebView) {
+        SVProgressHUD.dismiss()
     }
 
 }

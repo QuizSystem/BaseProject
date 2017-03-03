@@ -6,16 +6,15 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TutorialViewController" customModule="BaseProject" customModuleProvider="target">
             <connections>
-                <outlet property="descriptionLabel" destination="Xu9-Tq-MWV" id="izh-Lu-zEa"/>
                 <outlet property="mainPageControl" destination="QEO-3q-frS" id="efN-Ac-fNp"/>
                 <outlet property="mainScrollView" destination="3VA-8g-PCa" id="65z-b4-WMA"/>
                 <outlet property="startButton" destination="ghF-2K-zss" id="duH-K1-pHF"/>
-                <outlet property="titleLabel" destination="dI3-q8-cSI" id="lVW-Y4-hiJ"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -25,33 +24,24 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3VA-8g-PCa">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <rect key="frame" x="40" y="40" width="295" height="459"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="3VA-8g-PCa" secondAttribute="height" multiplier="9:14" id="mXw-PC-3Dk"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                     <connections>
                         <outlet property="delegate" destination="-1" id="Hpa-BW-kiB"/>
                     </connections>
                 </scrollView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dI3-q8-cSI">
-                    <rect key="frame" x="165" y="40" width="45" height="29"/>
-                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xu9-Tq-MWV">
-                    <rect key="frame" x="16" y="109" width="343" height="17"/>
-                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" translatesAutoresizingMaskIntoConstraints="NO" id="QEO-3q-frS">
-                    <rect key="frame" x="160" y="518" width="55" height="37"/>
-                    <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                    <color key="currentPageIndicatorTintColor" red="1" green="0.14030750010000001" blue="0.2399435473" alpha="1" colorSpace="calibratedRGB"/>
-                </pageControl>
                 <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ghF-2K-zss">
                     <rect key="frame" x="80" y="595" width="215" height="32"/>
                     <color key="backgroundColor" red="1" green="0.14030750010000001" blue="0.2399435473" alpha="1" colorSpace="calibratedRGB"/>
                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
-                    <state key="normal" title="Let's start">
+                    <state key="normal" title="始めましょう">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <userDefinedRuntimeAttributes>
@@ -69,23 +59,21 @@
                         <action selector="startButtonTapped:" destination="-1" eventType="touchUpInside" id="xbH-Hw-vg2"/>
                     </connections>
                 </button>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" translatesAutoresizingMaskIntoConstraints="NO" id="QEO-3q-frS">
+                    <rect key="frame" x="160" y="523" width="55" height="37"/>
+                    <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="currentPageIndicatorTintColor" red="1" green="0.14030750010000001" blue="0.2399435473" alpha="1" colorSpace="calibratedRGB"/>
+                </pageControl>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="dI3-q8-cSI" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="40" id="3X3-E6-ueD"/>
-                <constraint firstAttribute="bottom" secondItem="3VA-8g-PCa" secondAttribute="bottom" id="5PJ-x4-361"/>
                 <constraint firstAttribute="trailing" secondItem="ghF-2K-zss" secondAttribute="trailing" constant="80" id="7gm-Bb-wyt"/>
-                <constraint firstItem="ghF-2K-zss" firstAttribute="top" secondItem="QEO-3q-frS" secondAttribute="bottom" constant="40" id="99o-gT-xMM"/>
-                <constraint firstAttribute="trailing" secondItem="3VA-8g-PCa" secondAttribute="trailing" id="Fki-T3-vAm"/>
-                <constraint firstItem="Xu9-Tq-MWV" firstAttribute="top" secondItem="dI3-q8-cSI" secondAttribute="bottom" constant="40" id="M8q-bB-iSm"/>
+                <constraint firstItem="3VA-8g-PCa" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="AJ4-C0-gPQ"/>
+                <constraint firstItem="QEO-3q-frS" firstAttribute="top" secondItem="3VA-8g-PCa" secondAttribute="bottom" constant="24" id="PyN-0K-dWN"/>
                 <constraint firstItem="ghF-2K-zss" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="80" id="UEX-d7-LMo"/>
-                <constraint firstItem="dI3-q8-cSI" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Z9S-MN-KSi"/>
-                <constraint firstItem="Xu9-Tq-MWV" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="iTy-u2-Adu"/>
-                <constraint firstItem="3VA-8g-PCa" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="pjg-ZD-Dkp"/>
-                <constraint firstItem="QEO-3q-frS" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="qx1-Vr-DbH"/>
-                <constraint firstItem="3VA-8g-PCa" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="tan-eG-EYn"/>
+                <constraint firstAttribute="trailing" secondItem="3VA-8g-PCa" secondAttribute="trailing" constant="40" id="Yml-Sa-F1r"/>
+                <constraint firstItem="QEO-3q-frS" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="wZT-pe-O5U"/>
+                <constraint firstItem="3VA-8g-PCa" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="40" id="wgH-KT-1sX"/>
                 <constraint firstAttribute="bottom" secondItem="ghF-2K-zss" secondAttribute="bottom" constant="40" id="ydv-p1-LCM"/>
-                <constraint firstAttribute="trailing" secondItem="Xu9-Tq-MWV" secondAttribute="trailing" constant="16" id="zbO-Ue-AkB"/>
             </constraints>
             <point key="canvasLocation" x="26.5" y="52.5"/>
         </view>

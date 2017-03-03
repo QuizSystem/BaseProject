@@ -9,15 +9,16 @@
 import UIKit
 import ActiveLabel
 import FBSDKLoginKit
+import SVProgressHUD
 
 class RegisterViewController: BaseViewController {
 
     @IBOutlet weak var policyLabel: ActiveLabel!
-    let linkKeyword = "Terms of Use and Privacy Policy"
+    let linkKeyword = "momdoきや考根"
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let customLinkType = ActiveType.custom(pattern: "\\s\(linkKeyword)\\b")
+        let customLinkType = ActiveType.custom(pattern: linkKeyword)
         self.policyLabel?.enabledTypes.append(customLinkType)
         self.policyLabel?.customize({
             $0.customColor[customLinkType] = .blue
@@ -36,18 +37,23 @@ class RegisterViewController: BaseViewController {
     // MARK: - IBActions
 
     @IBAction func registerWithFacebookButtonTapped(_ sender: Any) {
+        SVProgressHUD.show()
+        SVProgressHUD.setDefaultMaskType(SVProgressHUDMaskType.clear)
         let facebookLogin = FBSDKLoginManager()
         facebookLogin.logOut()
         facebookLogin.logIn(withReadPermissions: ["public_profile", "email"],
             from: self) { [weak self] (result, error) in
             if let error = error {
+                SVProgressHUD.dismiss()
                 self?.show(message: error.localizedDescription, title: nil, completion: nil)
                 return
             }
             guard let result = result else {
+                SVProgressHUD.dismiss()
                 return
             }
             if (result.isCancelled) {
+                SVProgressHUD.dismiss()
                 return
             }
             let params = ["fields": "id, email, name, picture.type(large)"]
@@ -72,6 +78,7 @@ class RegisterViewController: BaseViewController {
                     return
                 }
                 print("id: \(id), email: \(email), name: \(name), avatarURL: \(url)")
+                SVProgressHUD.dismiss()
             }
         }
     }

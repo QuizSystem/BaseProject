@@ -7,5 +7,6 @@ target 'BaseProject' do
     pod 'FBSDKCoreKit'
     pod 'FBSDKLoginKit'
     pod 'ActiveLabel'
+    pod 'SVProgressHUD'
 
 end

@@ -12,16 +12,10 @@ class BaseNavigationController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        UIApplication.shared.setStatusBarHidden(true, with: .none)
         UIApplication.shared.setStatusBarHidden(false, with: .none)
-        self.navigationBar.barTintColor = UIColor(red: 137/255.0, green: 171/255.0, blue: 227/255.0, alpha: 1.0)
-        self.navigationBar.tintColor = UIColor.white
-        self.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
+        self.navigationBar.barTintColor = UIColor(red: 254.0 / 255.0, green: 211.0 / 255.0, blue: 0.0 / 255.0, alpha: 1.0)
+        self.navigationBar.tintColor = .black
         self.navigationBar.isTranslucent = false
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
     }
 
 }

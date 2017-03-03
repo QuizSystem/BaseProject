@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -20,74 +22,19 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Register with Momdo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GZI-ZV-c9x">
-                    <rect key="frame" x="107" y="40" width="160" height="21"/>
-                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f0e-vr-PIQ" customClass="ActiveLabel" customModule="ActiveLabel">
-                    <rect key="frame" x="16" y="125" width="343" height="51"/>
-                    <gestureRecognizers/>
-                    <attributedString key="attributedText">
-                        <fragment content="記おこつ態農頼香ヌオヒ駐彼まざ占組ぎきぱで竹就備どよ momdoきや考根ヒアム載新つれげ小出ヌヱク断">
-                            <attributes>
-                                <font key="NSFont" size="12" name="PingFangSC-Regular"/>
-                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                            </attributes>
-                        </fragment>
-                        <fragment content="5">
-                            <attributes>
-                                <font key="NSFont" size="12" name="Helvetica"/>
-                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                            </attributes>
-                        </fragment>
-                        <fragment content="者ヒヨオム台好そげッら近性季をにル">
-                            <attributes>
-                                <font key="NSFont" size="12" name="PingFangSC-Regular"/>
-                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                            </attributes>
-                        </fragment>
-                    </attributedString>
-                    <nil key="highlightedColor"/>
-                </label>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aJ4-3e-mpe">
-                    <rect key="frame" x="0.0" y="623" width="375" height="44"/>
-                    <subviews>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Up-aE-Nhu">
-                            <rect key="frame" x="0.0" y="0.0" width="375" height="1"/>
-                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="0.5" id="QP3-4q-gPO"/>
-                            </constraints>
-                        </view>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BvE-zq-6H9">
-                            <rect key="frame" x="77" y="7" width="221" height="30"/>
-                            <state key="normal" title="Already have an account? Log in"/>
-                            <connections>
-                                <action selector="redirectToLoginButtonTapped:" destination="-1" eventType="touchUpInside" id="10F-Fv-Jbv"/>
-                            </connections>
-                        </button>
-                    </subviews>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <constraints>
-                        <constraint firstItem="7Up-aE-Nhu" firstAttribute="top" secondItem="aJ4-3e-mpe" secondAttribute="top" id="KgJ-Ca-PxV"/>
-                        <constraint firstItem="BvE-zq-6H9" firstAttribute="centerX" secondItem="aJ4-3e-mpe" secondAttribute="centerX" id="XNY-s7-EDl"/>
-                        <constraint firstAttribute="height" constant="44" id="hIS-gE-XbP"/>
-                        <constraint firstItem="7Up-aE-Nhu" firstAttribute="leading" secondItem="aJ4-3e-mpe" secondAttribute="leading" id="mAz-UY-2BC"/>
-                        <constraint firstAttribute="trailing" secondItem="7Up-aE-Nhu" secondAttribute="trailing" id="mcI-EJ-Hjy"/>
-                        <constraint firstItem="BvE-zq-6H9" firstAttribute="centerY" secondItem="aJ4-3e-mpe" secondAttribute="centerY" id="vCb-jQ-ek4"/>
-                    </constraints>
-                </view>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="880-YD-tQo">
-                    <rect key="frame" x="32" y="499" width="311" height="30"/>
-                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    <state key="normal" title="Register with Facebook">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="880-YD-tQo">
+                    <rect key="frame" x="37.5" y="399.5" width="300" height="40"/>
+                    <color key="backgroundColor" red="0.23137254901960785" green="0.34901960784313724" blue="0.59607843137254901" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <inset key="imageEdgeInsets" minX="14" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="Facebookぎフ力年おべ先" image="icon_facebook_circle.png">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                            <real key="value" value="4"/>
+                            <real key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                     <connections>
@@ -95,40 +42,123 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oiZ-ks-Sxd">
-                    <rect key="frame" x="32" y="553" width="311" height="30"/>
-                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                    <state key="normal" title="Register with email">
-                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <rect key="frame" x="38" y="455.5" width="300" height="40"/>
+                    <color key="backgroundColor" red="0.35686274509803922" green="0.70980392156862748" blue="0.19215686274509802" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="oiZ-ks-Sxd" secondAttribute="height" multiplier="300:40" id="HpO-jd-oXH"/>
+                    </constraints>
+                    <state key="normal" title="教そりあ積大だラぼ去体ー役府">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                            <real key="value" value="4"/>
+                            <real key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                     <connections>
                         <action selector="registerWithEmailButtonTapped:" destination="-1" eventType="touchUpInside" id="dI0-gb-5oD"/>
                     </connections>
                 </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="j8T-W9-YDl">
+                    <rect key="frame" x="132" y="40" width="112" height="112"/>
+                    <color key="backgroundColor" red="1" green="0.14030750010000001" blue="0.2399435473" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="j8T-W9-YDl" secondAttribute="height" multiplier="1:1" id="JSQ-rK-UFh"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f0e-vr-PIQ" customClass="ActiveLabel" customModule="ActiveLabel">
+                    <rect key="frame" x="37.5" y="188" width="300" height="84"/>
+                    <gestureRecognizers/>
+                    <attributedString key="attributedText">
+                        <fragment content="記おこつ態農頼香ヌオヒ駐彼まざ占組ぎきぱで竹就備どよmomdoきや考根ヒアム載新つれげ小出ヌヱク断5者ヒヨオム台好そげッら近性季をにル">
+                            <attributes>
+                                <font key="NSFont" size="15" name="PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BvE-zq-6H9">
+                    <rect key="frame" x="38" y="566.5" width="300" height="40.5"/>
+                    <color key="backgroundColor" red="0.98039215686274506" green="0.75686274509803919" blue="0.027450980392156862" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="英丁げき">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="redirectToLoginButtonTapped:" destination="-1" eventType="touchUpInside" id="10F-Fv-Jbv"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LxN-6j-krI">
+                    <rect key="frame" x="91" y="535.5" width="192" height="23"/>
+                    <attributedString key="attributedText">
+                        <fragment content="苦見マネ委鳥修ッがルぐ鬼">
+                            <attributes>
+                                <font key="NSFont" size="16" name="PingFangSC-Semibold"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D1B-sh-dlK">
+                    <rect key="frame" x="139" y="368.5" width="96" height="23"/>
+                    <attributedString key="attributedText">
+                        <fragment content="ごつお黒変き">
+                            <attributes>
+                                <font key="NSFont" size="16" name="PingFangSC-Semibold"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="oiZ-ks-Sxd" secondAttribute="trailing" constant="32" id="21q-Ck-cZp"/>
-                <constraint firstItem="GZI-ZV-c9x" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="2nb-rc-IAl"/>
-                <constraint firstAttribute="bottom" secondItem="aJ4-3e-mpe" secondAttribute="bottom" id="3WP-hN-yb2"/>
-                <constraint firstItem="oiZ-ks-Sxd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="32" id="3b3-5A-TuU"/>
-                <constraint firstItem="aJ4-3e-mpe" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="4xE-jz-zsW"/>
+                <constraint firstItem="BvE-zq-6H9" firstAttribute="top" secondItem="LxN-6j-krI" secondAttribute="bottom" constant="8" id="14A-aG-1JB"/>
+                <constraint firstItem="D1B-sh-dlK" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="2zQ-o0-ePN"/>
+                <constraint firstItem="880-YD-tQo" firstAttribute="top" secondItem="D1B-sh-dlK" secondAttribute="bottom" constant="8" id="3xI-9n-k7l"/>
                 <constraint firstItem="880-YD-tQo" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="8ba-H2-8e0"/>
-                <constraint firstItem="GZI-ZV-c9x" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="40" id="9sB-fq-zI3"/>
-                <constraint firstItem="oiZ-ks-Sxd" firstAttribute="top" secondItem="880-YD-tQo" secondAttribute="bottom" constant="24" id="Gkc-aL-ScH"/>
-                <constraint firstItem="f0e-vr-PIQ" firstAttribute="top" secondItem="GZI-ZV-c9x" secondAttribute="bottom" constant="64" id="ITW-ce-Kj3"/>
-                <constraint firstItem="aJ4-3e-mpe" firstAttribute="top" secondItem="oiZ-ks-Sxd" secondAttribute="bottom" constant="40" id="K1F-Cb-sX6"/>
+                <constraint firstItem="j8T-W9-YDl" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="9cv-cu-YB6"/>
+                <constraint firstItem="LxN-6j-krI" firstAttribute="top" secondItem="oiZ-ks-Sxd" secondAttribute="bottom" constant="40" id="Brb-L0-5j2"/>
+                <constraint firstItem="BvE-zq-6H9" firstAttribute="height" secondItem="oiZ-ks-Sxd" secondAttribute="height" id="Bup-TR-2Ep"/>
+                <constraint firstItem="oiZ-ks-Sxd" firstAttribute="top" secondItem="880-YD-tQo" secondAttribute="bottom" constant="16" id="Gkc-aL-ScH"/>
+                <constraint firstItem="LxN-6j-krI" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="IxN-NC-91j"/>
+                <constraint firstItem="j8T-W9-YDl" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="112:667" id="Jst-Se-Xga"/>
+                <constraint firstItem="f0e-vr-PIQ" firstAttribute="top" secondItem="j8T-W9-YDl" secondAttribute="bottom" constant="36" id="N9A-Ld-rMf"/>
+                <constraint firstItem="oiZ-ks-Sxd" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="VF4-8u-Nq7"/>
                 <constraint firstItem="880-YD-tQo" firstAttribute="width" secondItem="oiZ-ks-Sxd" secondAttribute="width" id="cKr-a2-ukj"/>
-                <constraint firstItem="f0e-vr-PIQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="ews-vP-7UX"/>
-                <constraint firstAttribute="trailing" secondItem="f0e-vr-PIQ" secondAttribute="trailing" constant="16" id="jZ9-Vk-bWm"/>
-                <constraint firstAttribute="trailing" secondItem="aJ4-3e-mpe" secondAttribute="trailing" id="msf-aF-klX"/>
+                <constraint firstItem="BvE-zq-6H9" firstAttribute="width" secondItem="oiZ-ks-Sxd" secondAttribute="width" id="g2b-qF-Vbs"/>
+                <constraint firstAttribute="bottom" secondItem="BvE-zq-6H9" secondAttribute="bottom" constant="60" id="hHh-lK-FwJ"/>
+                <constraint firstItem="880-YD-tQo" firstAttribute="height" secondItem="oiZ-ks-Sxd" secondAttribute="height" id="kTo-KV-EZG"/>
+                <constraint firstItem="oiZ-ks-Sxd" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="300:375" id="ndT-rS-tbb"/>
+                <constraint firstItem="j8T-W9-YDl" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="40" id="nx9-bx-oBE"/>
+                <constraint firstItem="f0e-vr-PIQ" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="300:375" id="wzF-Us-JWC"/>
+                <constraint firstItem="f0e-vr-PIQ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="x6O-aJ-mTk"/>
+                <constraint firstItem="BvE-zq-6H9" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="zjl-0z-t0z"/>
             </constraints>
             <point key="canvasLocation" x="25.5" y="51.5"/>
         </view>
         <tapGestureRecognizer id="gme-T5-JEg"/>
     </objects>
+    <resources>
+        <image name="icon_facebook_circle.png" width="40" height="40"/>
+    </resources>
 </document>

@@ -15,19 +15,13 @@ class PolicyViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.addCustomBackButton()
+        self.navigationItem.title = "づトン樹"
         guard let url = URL(string: "http://www.apple.com/shop/help/shopping_experience") else {
             return
         }
         let request = URLRequest(url: url)
         self.policyWebView.loadRequest(request)
-    }
-    
-    // MARK: - IBActions
-    
-    @IBAction func closeButtonTapped(_ sender: Any) {
-        SVProgressHUD.dismiss()
-        self.dismiss(animated: true, completion: nil)
     }
 
 }

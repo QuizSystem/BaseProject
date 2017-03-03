@@ -15,7 +15,7 @@ class TutorialViewController: BaseViewController {
     @IBOutlet weak var startButton: UIButton!
     
     // Sample data
-    let backgrounds = ["slide1", "slide2", "slide3", "slide4"]
+    let backgrounds: [UIColor] = [.green, .red, .black, .purple]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,12 +25,13 @@ class TutorialViewController: BaseViewController {
         super.viewDidLayoutSubviews()
         let screenWidth = self.mainScrollView.frame.width
         let screenHeight = self.mainScrollView.frame.height
-        self.mainScrollView.contentSize = CGSize(width: screenWidth * 4,
+        self.mainScrollView.contentSize = CGSize(width: screenWidth * CGFloat(self.backgrounds.count),
             height: screenHeight)
         for i in 0..<backgrounds.count {
             let backgoundImageView = UIImageView(frame: self.mainScrollView.frame)
             backgoundImageView.frame.origin.x = screenWidth * CGFloat(integerLiteral: i)
-            backgoundImageView.image = UIImage(named: backgrounds[i])
+            backgoundImageView.frame.origin.y = 0
+            backgoundImageView.backgroundColor = backgrounds[i]
             self.mainScrollView.addSubview(backgoundImageView)
         }
     }
@@ -39,7 +40,8 @@ class TutorialViewController: BaseViewController {
 
     @IBAction func startButtonTapped(_ sender: Any) {
         let registerViewController = RegisterViewController()
-        self.present(registerViewController, animated: true, completion: nil)
+        let navigationController = BaseNavigationController(rootViewController: registerViewController)
+        self.present(navigationController, animated: true, completion: nil)
     }
     
 }

@@ -18,6 +18,8 @@ class RegisterViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        self.navigationController?.navigationBar.shadowImage = UIImage()
         let customLinkType = ActiveType.custom(pattern: linkKeyword)
         self.policyLabel?.enabledTypes.append(customLinkType)
         self.policyLabel?.customize({
@@ -28,10 +30,10 @@ class RegisterViewController: BaseViewController {
             }
         })
     }
-    
+
     func redirectToPolicy() {
         let policyViewController = PolicyViewController()
-        self.present(policyViewController, animated: true, completion: nil)
+        self.navigationController?.pushViewController(policyViewController, animated: true)
     }
 
     // MARK: - IBActions
@@ -84,6 +86,8 @@ class RegisterViewController: BaseViewController {
     }
     
     @IBAction func registerWithEmailButtonTapped(_ sender: Any) {
+        let emailRegisterViewController = EmailRegisterViewController()
+        self.navigationController?.pushViewController(emailRegisterViewController, animated: true)
     }
     
     @IBAction func redirectToLoginButtonTapped(_ sender: Any) {
